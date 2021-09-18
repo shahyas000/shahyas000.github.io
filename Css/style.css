@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -14,6 +17,44 @@
     background-color: var(--main);
     width: 70%;
   margin: 0 auto;
-  max-width: 528px;
-  padding: 4%;
+  max-width: 792px;
+  padding: 10px;
+}
+#hero{
+background-color: #002E59;
+  background-image: url("/mysite/images/OutdoorTennis2019_2_WEB_.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-contain;
+  min-height: 20vh;
+  font-family: 'Permanent Marker', cursive;
+  font-size: x-large;
+  text-align: center;
+  color: #c2ffc2;
+  text-shadow: 5px 5px 2px #003087;
+  font-weight: 400px;
+  border: dashed #77c5ee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 35px;
+}
+#info, #detail, #rules{
+    font-family: 'Nova Mono', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 48px;
+    color: white;
+}
+#infoHeader, #detailHeader, #rulesHeader, #sponsorHeader{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+}
+a{
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
 }

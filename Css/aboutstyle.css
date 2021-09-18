@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    background-image: linear-gradient(to right bottom, #003087, #23459a, #3b5bac, #5172be, #6789d0, #6e96d9, #76a3e2, #7fb0ea, #7bb6ec, #79bbed, #77c0ee, #77c5ee);
+    --main: #0078C3;
+
+}
+#container{
+    background-color: var(--main);
+    width: 70%;
+  margin: 0 auto;
+  max-width: 792px;
+  padding: 10px;
+  max-height: 8000px;
+}
