@@ -9,16 +9,17 @@
     padding: 0;
 }
 :root{
-    background-image: linear-gradient(to right bottom, #003087, #23459a, #3b5bac, #5172be, #6789d0, #6e96d9, #76a3e2, #7fb0ea, #7bb6ec, #79bbed, #77c0ee, #77c5ee);
+    background-color: #90EE90;
     --main: #0078C3;
 
 }
 #container{
     background-color: var(--main);
     width: 70%;
-  margin: 0 auto;
-  max-width: 792px;
-  padding: 10px;
+    margin: 0 auto;
+    max-width: 792px;
+    padding: 10px;
+    border: #45acec solid 5px;
 }
 #hero{
 background-color: #002E59;
@@ -41,7 +42,7 @@ background-color: #002E59;
 
   margin-bottom: 35px;
 }
-#info, #detail, #rules{
+#info, #detail, #rules, #text{
     font-family: 'Nova Mono', monospace;
     font-size: 20px;
     letter-spacing: 1px;
@@ -53,6 +54,10 @@ background-color: #002E59;
     font-weight: 500;
     margin-top: 20px;
     color: white;
+}
+#sponsor img{
+  display: block;
+  margin: auto;
 }
 a{
     color: rgb(243, 233, 233);
@@ -72,12 +77,12 @@ a{
 }
 a:hover{
     color: #002E59;
-    background-color: #fcfcfc;
+    background-color: #9bd9ff;
     border-color: #002E59;
     max-width: 75%;
     transition: 1s;
   }  
-  footer{
+footer{
     background-color: #002E59;
     color: #D9D9DB;
     padding: 10px;
@@ -88,3 +93,28 @@ a:hover{
   footer p{
     margin: 20px 0;
   }
+#title{
+  font-family: 'Permanent Marker', cursive;
+  font-size: xx-large;
+  text-align: left;
+  color: #bee3fa;
+  text-shadow: 5px 5px 2px #003087;
+  font-weight: 400px;
+}
+span{
+  border: dashed #45acec 5px;
+  border-radius: 30px 30px 30px 30px;
+}
+#content{
+  display: flex;
+}
+#text{
+  max-width: 400px;
+  margin-right: 50px;
+}
+#image img{
+  max-width: 100%;
+}
+#image{
+  margin-top: 50px;
+}
