@@ -59,7 +59,11 @@
   display: block;
   margin: auto;
 }
-a{
+#sponsor img:hover{
+  filter: grayscale(100%);
+  transition: .25s ease-in-out;
+}
+#link a{
     color: rgb(243, 233, 233);
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -75,7 +79,7 @@ a{
     border: 3px solid #D9D9DB;
     transition: 0.5s;
 }
-a:hover{
+#link a:hover{
     color: #002E59;
     background-color: #9bd9ff;
     border-color: #002E59;
